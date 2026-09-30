@@ -1,0 +1,4 @@
+- hosts: servidores
+  tasks:
+    - name: Testar conexão SSH
+      ansible.builtin.ping:
